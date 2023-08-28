@@ -22,10 +22,10 @@ data:
     {
         "Servers": {
           "1": {
-            "Name": "PostgreSQL DB",
+            "Name": "PostgreSQL DB hosted by Amazon RDS",
             "Group": "Servers",
             "Port": 5432,
-            "Username": "postgres",
+            "Username": "isik_hapi_admin",
             "Host": "isik-hapi-db.cfayfrqrsmtj.eu-central-1.rds.amazonaws.com",
             "SSLMode": "prefer",
             "MaintenanceDB": "isik-hapi-db"
