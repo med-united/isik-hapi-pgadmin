@@ -28,7 +28,7 @@ data:
             "Username": "isik_hapi_admin",
             "Host": "isik-hapi-db.cfayfrqrsmtj.eu-central-1.rds.amazonaws.com",
             "SSLMode": "prefer",
-            "MaintenanceDB": "isik-hapi-db"
+            "MaintenanceDB": "postgres"
           }
         }
     }
