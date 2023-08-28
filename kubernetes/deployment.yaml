@@ -58,7 +58,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: PGADMIN_DEFAULT_EMAIL
-              value: manuel.blechschmidt@incentergy.de
+              value: beatriz.correia@incentergy.de
             - name: PGADMIN_DEFAULT_PASSWORD
               valueFrom:
                 secretKeyRef:
@@ -128,6 +128,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: pgadmin4
+                name: isik-hapi-pgadmin
                 port:
                   number: 80
