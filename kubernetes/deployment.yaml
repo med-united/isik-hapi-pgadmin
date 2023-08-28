@@ -43,11 +43,11 @@ spec:
     type: RollingUpdate
   selector:
     matchLabels:
-      app: pgadmin4
+      app: isik-hapi-pgadmin
   template:
     metadata:
       labels:
-        app: pgadmin4
+        app: isik-hapi-pgadmin
     spec:
       terminationGracePeriodSeconds: 10
       securityContext:
