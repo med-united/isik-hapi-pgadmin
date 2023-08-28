@@ -104,7 +104,7 @@ metadata:
   name: isik-hapi-pgadmin
 spec:
   selector:
-    app: pgadmin
+    app: isik-hapi-pgadmin
   ports:
     - port: 80
   type: NodePort
